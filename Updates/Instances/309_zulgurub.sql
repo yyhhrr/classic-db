@@ -1365,14 +1365,14 @@ INSERT INTO `creature_spawn_entry` (`guid`, `entry`) VALUES
 -- ===========
 
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecsmin`, `spawntimesecsmax`) VALUES
-(@OGUID+1, 180323, 309, -11916.771484375, -1221.220947265625, 92.50450897216796875, -1.57079565525054931, 0, 0, -0.70710653066635131, 0.707107007503509521, 600, 600), -- Gates of Zul'Gurub
+(@OGUID+1, 180323, 309, -11916.771484375, -1221.220947265625, 92.50450897216796875, -1.57079565525054931, 0, 0, -0.70710653066635131, 0.707107007503509521, 0, 0), -- Gates of Zul'Gurub
 (@OGUID+2, 180253, 309, -11900.6, -1905.16, 65.3128, 3.78737, 0, 0, -0.948323, 0.317306, -600, -600), -- Troll Hero Air Portal
 (@OGUID+3, 180254, 309, -11900.6, -1905.15, 65.3134, 3.14159, 0, 0, -1, 0, -600, -600), -- Troll Hero Fire Portal
 (@OGUID+4, 180385, 309, -11900.3, -1905.49, 65.3169, 0.837758, 0, 0, 0.406736, 0.913545, -600, -600), -- Troll Hero Portal Sound
-(@OGUID+5, 180252, 309, -11892.46875, -1913.1458740234375, 65.147064208984375, 2.443460941314697265, 0, 0, 0.939692616462707519, 0.342020153999328613, 600, 600), -- Troll Hero Lightning
-(@OGUID+6, 180252, 309, -11906.146484375, -1911.8370361328125, 65.147064208984375, 0.855211377143859863, 0, 0, 0.414693236351013183, 0.909961283206939697, 600, 600), -- Troll Hero Lightning
-(@OGUID+7, 180252, 309, -11909.0712890625, -1899.2628173828125, 65.147064208984375, 0.750491559505462646, 0, 0, 0.366501212120056152, 0.930417597293853759, 600, 600), -- Troll Hero Lightning
-(@OGUID+8, 180327, 309, -11887.05859375, -1889.802490234375, 63.50368881225585937, 0.855211377143859863, 0, 0, 0.414693236351013183, 0.909961283206939697, 259200, 259200), -- Brazier of Madness
+(@OGUID+5, 180252, 309, -11892.46875, -1913.1458740234375, 65.147064208984375, 2.443460941314697265, 0, 0, 0.939692616462707519, 0.342020153999328613, 0, 0), -- Troll Hero Lightning
+(@OGUID+6, 180252, 309, -11906.146484375, -1911.8370361328125, 65.147064208984375, 0.855211377143859863, 0, 0, 0.414693236351013183, 0.909961283206939697, 0, 0), -- Troll Hero Lightning
+(@OGUID+7, 180252, 309, -11909.0712890625, -1899.2628173828125, 65.147064208984375, 0.750491559505462646, 0, 0, 0.366501212120056152, 0.930417597293853759, 0, 0), -- Troll Hero Lightning
+(@OGUID+8, 180327, 309, -11887.05859375, -1889.802490234375, 63.50368881225585937, 0.855211377143859863, 0, 0, 0.414693236351013183, 0.909961283206939697, 0, 0), -- Brazier of Madness
 (@OGUID+9, 180368, 309, -11910.4306640625, -1917.0399169921875, 71.6556854248046875, -2.33001399040222167, 0, 0, 0.918790996074676513, -0.39474400877952575, 600, 600), -- Tablet of Madness
 (@OGUID+10, 180358, 309, -11874.7919921875, -1927.7274169921875, 67.03594970703125, 1.588248252868652343, 0, 0, 0.71324998140335083, 0.700909972190856933, 600, 600), -- Gri'lek, with the Iron Blood
 (@OGUID+11, 180364, 309, -11892.56640625, -1928.8072509765625, 66.81372833251953125, -1.58824825286865234, 0, 0, -0.71324998140335083, 0.700909972190856933, 600, 600), -- Hazza'rah, the Dreamweaver
@@ -1597,7 +1597,7 @@ INSERT INTO `gameobject` (`guid`, `id`, `map`, `position_x`, `position_y`, `posi
 (@OGUID+268, 180392, 309, -11691.6611328125, -1769.886474609375, 12.592315673828125, 2.600540637969970703, 0, 0, 0.963630437850952148, 0.267238348722457885, 10, 10), -- Full Jug
 (@OGUID+269, 180392, 309, -11692.1767578125, -1769.6417236328125, 12.592315673828125, 0.523598790168762207, 0, 0, 0.258819043636322021, 0.965925812721252441, 10, 10), -- Full Jug
 (@OGUID+270, 180386, 309, -11516.2421875, -1648.1376953125, 49.53345108032226562, 1.666788697242736816, 0, 0, 0.740217864513397216, 0.6723671555519104, 600, 600), -- Gong
-(@OGUID+271, 180497, 309, -11501.8935546875, -1614.798828125, 44.57218170166015625, 1.57952284812927246, 0, 0, 0.710185348987579345, 0.704014778137207031, 600, 600), -- Forcefield
+(@OGUID+271, 180497, 309, -11501.8935546875, -1614.798828125, 44.57218170166015625, 1.57952284812927246, 0, 0, 0.710185348987579345, 0.704014778137207031, 0, 0), -- Forcefield
 (@OGUID+272, 180526, 309, -11569.19921875, -1627.87451171875, 41.27669906616210937, 0.008725880645215511, 0, 0, 0.004362926352769136, 0.999990463256835937, 600, 600), -- Gong of Bethekk
 -- Zul''Gurub - Hakkari Thorium Vein (1) Ore 000
 (@OGUID+0300, 0, 309, -12310.1220703125, -1465.3640136718750, 130.6002044677734375, 3.961898565292358398, 0, 0, -0.91705989837646484, 0.398749500513076782, 604800, 604800), -- Hakkari Thorium Vein
@@ -1635,26 +1635,11 @@ INSERT INTO `gameobject` (`guid`, `id`, `map`, `position_x`, `position_y`, `posi
 -- =======
 
 -- INSERT INTO `pool_pool` (`pool_id`, `mother_pool`, `chance`, `description`) VALUES
-
-INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
-(@PGUID+61, 2, 'Zul''Gurub - Sungrass (180164)'),
-(@PGUID+62, 3, 'Zul''Gurub - Purple Lotus (180165)'),
-(@PGUID+63, 4, 'Zul''Gurub - Mountain Silversage (180166)'),
-(@PGUID+64, 5, 'Zul''Gurub - Golden Sansam (180167)'),
-(@PGUID+65, 5, 'Zul''Gurub - Dreamfoil (180168)'),
-(@PGUID+71, 4, 'Zul''Gurub - Muddy Churning Waters (180369)');
-
+-- INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 -- INSERT INTO `pool_creature` (`guid`, `pool_entry`, `chance`, `description`) VALUES
 -- INSERT INTO `pool_creature_template` (`id`, `pool_entry`, `chance`, `description`) VALUES
 -- INSERT INTO `pool_gameobject` (`guid`, `pool_entry`, `chance`, `description`) VALUES
-
-INSERT INTO `pool_gameobject_template` (`id`, `pool_entry`, `chance`, `description`) VALUES
-(180164, @PGUID+61, 0, 'Zul''Gurub - Sungrass (180164)'),
-(180165, @PGUID+62, 0, 'Zul''Gurub - Purple Lotus (180165)'),
-(180166, @PGUID+63, 0, 'Zul''Gurub - Mountain Silversage (180166)'),
-(180167, @PGUID+64, 0, 'Zul''Gurub - Golden Sansam (180167)'),
-(180168, @PGUID+65, 0, 'Zul''Gurub - Dreamfoil (180168)'),
-(180369, @PGUID+71, 0, 'Zul''Gurub - Muddy Churning Waters (180369)');
+-- INSERT INTO `pool_gameobject_template` (`id`, `pool_entry`, `chance`, `description`) VALUES
 
 -- ============
 -- SPAWN GROUPS
@@ -1701,7 +1686,13 @@ INSERT INTO `spawn_group` (`Id`, `Name`, `Type`, `MaxCount`, `WorldState`, `Flag
 (@GROUP_ID+1002, 'Zul''Gurub - Hakkari Thorium Vein (1) Ore 000', '1', '1', '0', '0'),
 (@GROUP_ID+1003, 'Zul''Gurub - Hakkari Thorium Vein (1) Ore 001', '1', '1', '0', '0'),
 (@GROUP_ID+1004, 'Zul''Gurub - Hakkari Thorium Vein (1) Ore 002', '1', '1', '0', '0'),
-(@GROUP_ID+1005, 'Zul''Gurub - Hakkari Thorium Vein (1) Ore 003', '1', '1', '0', '0');
+(@GROUP_ID+1005, 'Zul''Gurub - Hakkari Thorium Vein (1) Ore 003', '1', '1', '0', '0'),
+(@GROUP_ID+1006, 'Zul''Gurub - Sungrass', '1', '1', '2', '0'),
+(@GROUP_ID+1007, 'Zul''Gurub - Purple Lotus', '1', '1', '3', '0'),
+(@GROUP_ID+1008, 'Zul''Gurub - Mountain Silversage', '1', '1', '4', '0'),
+(@GROUP_ID+1009, 'Zul''Gurub - Golden Sansam', '1', '1', '5', '0'),
+(@GROUP_ID+1010, 'Zul''Gurub - Dreamfoil', '1', '1', '5', '0'),
+(@GROUP_ID+1011, 'Zul''Gurub - Muddy Churning Waters', '1', '1', '4', '0');
 
 INSERT INTO `spawn_group_entry` (`Id`, `Entry`, `MinCount`, `MaxCount`, `Chance`) VALUES
 -- Zul''Gurub - Razzashi Serpent | Razzashi Adder (2) Wandering 000
@@ -1930,7 +1921,82 @@ INSERT INTO `spawn_group_spawn` (`Id`, `Guid`, `SlotId`, `Chance`) VALUES
 (@GROUP_ID+1005, @OGUID+0330, -1, 00),  -- Hakkari Thorium Vein
 (@GROUP_ID+1005, @OGUID+0331, -1, 00),  -- Hakkari Thorium Vein
 (@GROUP_ID+1005, @OGUID+0332, -1, 00),  -- Hakkari Thorium Vein
-(@GROUP_ID+1005, @OGUID+0333, -1, 00);  -- Hakkari Thorium Vein
+(@GROUP_ID+1005, @OGUID+0333, -1, 00),  -- Hakkari Thorium Vein
+-- Zul''Gurub - Sungrass
+(@GROUP_ID+1006, @OGUID+131, -1, 00),
+(@GROUP_ID+1006, @OGUID+132, -1, 00),
+(@GROUP_ID+1006, @OGUID+133, -1, 00),
+(@GROUP_ID+1006, @OGUID+134, -1, 00),
+(@GROUP_ID+1006, @OGUID+135, -1, 00),
+(@GROUP_ID+1006, @OGUID+136, -1, 00),
+(@GROUP_ID+1006, @OGUID+137, -1, 00),
+-- Zul''Gurub - Purple Lotus
+(@GROUP_ID+1007, @OGUID+141, -1, 00),
+(@GROUP_ID+1007, @OGUID+142, -1, 00),
+(@GROUP_ID+1007, @OGUID+143, -1, 00),
+(@GROUP_ID+1007, @OGUID+144, -1, 00),
+(@GROUP_ID+1007, @OGUID+145, -1, 00),
+(@GROUP_ID+1007, @OGUID+146, -1, 00),
+(@GROUP_ID+1007, @OGUID+147, -1, 00),
+(@GROUP_ID+1007, @OGUID+148, -1, 00),
+(@GROUP_ID+1007, @OGUID+149, -1, 00),
+-- Zul''Gurub - Mountain Silversage
+(@GROUP_ID+1008, @OGUID+151, -1, 00),
+(@GROUP_ID+1008, @OGUID+152, -1, 00),
+(@GROUP_ID+1008, @OGUID+153, -1, 00),
+(@GROUP_ID+1008, @OGUID+154, -1, 00),
+(@GROUP_ID+1008, @OGUID+155, -1, 00),
+(@GROUP_ID+1008, @OGUID+156, -1, 00),
+(@GROUP_ID+1008, @OGUID+157, -1, 00),
+(@GROUP_ID+1008, @OGUID+158, -1, 00),
+(@GROUP_ID+1008, @OGUID+159, -1, 00),
+(@GROUP_ID+1008, @OGUID+160, -1, 00),
+(@GROUP_ID+1008, @OGUID+161, -1, 00),
+(@GROUP_ID+1008, @OGUID+162, -1, 00),
+-- Zul''Gurub - Golden Sansam
+(@GROUP_ID+1009, @OGUID+171, -1, 00),
+(@GROUP_ID+1009, @OGUID+172, -1, 00),
+(@GROUP_ID+1009, @OGUID+173, -1, 00),
+(@GROUP_ID+1009, @OGUID+174, -1, 00),
+(@GROUP_ID+1009, @OGUID+175, -1, 00),
+(@GROUP_ID+1009, @OGUID+176, -1, 00),
+(@GROUP_ID+1009, @OGUID+177, -1, 00),
+(@GROUP_ID+1009, @OGUID+178, -1, 00),
+(@GROUP_ID+1009, @OGUID+179, -1, 00),
+(@GROUP_ID+1009, @OGUID+180, -1, 00),
+(@GROUP_ID+1009, @OGUID+181, -1, 00),
+(@GROUP_ID+1009, @OGUID+182, -1, 00),
+(@GROUP_ID+1009, @OGUID+183, -1, 00),
+(@GROUP_ID+1009, @OGUID+184, -1, 00),
+(@GROUP_ID+1009, @OGUID+185, -1, 00),
+(@GROUP_ID+1009, @OGUID+186, -1, 00),
+(@GROUP_ID+1009, @OGUID+187, -1, 00),
+-- Zul''Gurub - Dreamfoil
+(@GROUP_ID+1010, @OGUID+191, -1, 00),
+(@GROUP_ID+1010, @OGUID+192, -1, 00),
+(@GROUP_ID+1010, @OGUID+193, -1, 00),
+(@GROUP_ID+1010, @OGUID+194, -1, 00),
+(@GROUP_ID+1010, @OGUID+195, -1, 00),
+(@GROUP_ID+1010, @OGUID+196, -1, 00),
+(@GROUP_ID+1010, @OGUID+197, -1, 00),
+(@GROUP_ID+1010, @OGUID+198, -1, 00),
+(@GROUP_ID+1010, @OGUID+199, -1, 00),
+(@GROUP_ID+1010, @OGUID+200, -1, 00),
+(@GROUP_ID+1010, @OGUID+201, -1, 00),
+(@GROUP_ID+1010, @OGUID+202, -1, 00),
+(@GROUP_ID+1010, @OGUID+203, -1, 00),
+(@GROUP_ID+1010, @OGUID+204, -1, 00),
+(@GROUP_ID+1010, @OGUID+205, -1, 00),
+(@GROUP_ID+1010, @OGUID+206, -1, 00),
+(@GROUP_ID+1010, @OGUID+207, -1, 00),
+-- Zul''Gurub - Muddy Churning Waters
+(@GROUP_ID+1011, @OGUID+0256, -1, 00),
+(@GROUP_ID+1011, @OGUID+0257, -1, 00),
+(@GROUP_ID+1011, @OGUID+0258, -1, 00),
+(@GROUP_ID+1011, @OGUID+0259, -1, 00),
+(@GROUP_ID+1011, @OGUID+0260, -1, 00),
+(@GROUP_ID+1011, @OGUID+0261, -1, 00),
+(@GROUP_ID+1011, @OGUID+0262, -1, 00);
 
 INSERT INTO `spawn_group_spawn` (`guid`, `Id`) SELECT `guid`, @GROUP_ID+1001 FROM `gameobject` WHERE `guid` BETWEEN @OGUID+211 AND @OGUID+227; -- Jinxed Hoodoo Pile
 
