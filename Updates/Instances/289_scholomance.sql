@@ -211,7 +211,7 @@ INSERT INTO `creature_addon` (`guid`, `mount`, `stand_state`, `sheath_state`, `e
 (@CGUID+355, 0, 0, 1, 0, 0, '17467'); -- Lord Alexei Barov
 
 REPLACE INTO `creature_template_addon` (`entry`, `mount`, `stand_state`, `sheath_state`, `emote`, `moveflags`, `auras`) VALUES
-(10432, 0, 0, 1, 0, 0, NULL), -- Vectus
+(10432, 0, 0, 1, 0, 0, '13377'), -- Vectus
 (10433, 0, 0, 1, 0, 0, NULL), -- Marduk Blackpool
 (10469, 0, 0, 1, 0, 0, NULL), -- Scholomance Adept
 (10470, 0, 0, 1, 0, 0, NULL), -- Scholomance Neophyte
@@ -222,14 +222,14 @@ REPLACE INTO `creature_template_addon` (`entry`, `mount`, `stand_state`, `sheath
 (10477, 0, 0, 1, 0, 0, NULL), -- Scholomance Necromancer
 (10478, 0, 0, 1, 0, 0, NULL), -- Splintered Skeleton
 (10480, 0, 0, 1, 0, 0, NULL), -- Unstable Corpse
-(10481, 0, 0, 1, 0, 0, NULL), -- Reanimated Corpse
+(10481, 0, 0, 1, 0, 0, '12038'), -- Reanimated Corpse
 (10485, 0, 0, 1, 0, 0, NULL), -- Risen Aberration
 (10486, 0, 0, 1, 0, 0, NULL), -- Risen Warrior
 (10487, 0, 0, 1, 0, 0, NULL), -- Risen Protector
 (10488, 0, 0, 1, 0, 0, NULL), -- Risen Construct
 (10489, 0, 0, 1, 0, 0, NULL), -- Risen Guard
 (10491, 0, 0, 1, 0, 0, NULL), -- Risen Bonewarder
-(10495, 0, 0, 1, 0, 0, NULL), -- Diseased Ghoul
+(10495, 0, 0, 1, 0, 0, '8247'), -- Diseased Ghoul
 (10498, 0, 0, 1, 0, 0, NULL), -- Spectral Tutor
 (10499, 0, 0, 1, 0, 0, NULL), -- Spectral Researcher
 (10500, 0, 0, 1, 0, 0, NULL), -- Spectral Teacher
